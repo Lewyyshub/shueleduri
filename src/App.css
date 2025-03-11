@@ -1,0 +1,24 @@
+@import "tailwindcss";
+body {
+  background-color: #10141e;
+}
+
+.swiper {
+  width: 100%;
+  height: auto; 
+}
+
+.swiper-slide {
+  text-align: left; 
+  font-size: 18px;
+  background: transparent; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
